@@ -12,7 +12,7 @@ matplotlib.use("Agg")
 
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import plot_confusion_matrix, classification_report, accuracy_score, precision_score, recall_score, f1_score, confusion_matrix
+from sklearn.metrics import classification_report, accuracy_score, precision_score, recall_score, f1_score, confusion_matrix
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 st.title("Predicting Customers who might terminate their Credit Card Services")
