@@ -25,8 +25,8 @@ data_unclean_url = "BankChurners.csv"
 st.sidebar.markdown("## Side Bar")
 st.sidebar.markdown("Use this panel to explore the dataset, create viz, and make predictions.")
 
-df = pd.read_csv(data_url)
-df_unclean = pd.read_csv(data_unclean_url)
+data_url = "C:\\Users\\Samujjwal\\Desktop\\projri\\BankChurners.csv"
+data_unclean_url = "C:\\Users\\Samujjwal\\Desktop\\projri\\BankChurners.csv"
 
 # Showing the original raw data
 if st.checkbox("Here, you can check the raw data", False):
