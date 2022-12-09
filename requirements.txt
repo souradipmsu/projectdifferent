@@ -1,0 +1,10 @@
+imblearn==0.0
+matplotlib==3.6.0
+numpy==1.23.3
+pandas==1.4.4
+pandas_profiling==3.5.0
+Pillow==9.3.0
+scikit_learn==1.2.0
+scipy==1.9.3
+seaborn==0.12.1
+streamlit==1.12.2
